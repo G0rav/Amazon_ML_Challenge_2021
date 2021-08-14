@@ -1,4 +1,16 @@
-## All the Notebooks are messy right now. I'll organise them as soon as I got some time.
+# Note
+All the Notebooks are messy right now. I'll organise them as soon as I got some time.
+
+I've used simple bag of words model here to classify the node ids.
+As of now I've only trained it for 1 epoch and it is performing really good.
+Unfortunately, I was not able to participate and submit it to the actual challenge, so not able to test it on the test dataset.
+But train data is infact really big around 3 Million data points. So, I splits the train data itself in 70-30 ratio in order to validate the performance of the model.
+
+Training results are:
+12755/12755 [==============================] - 5117s 401ms/step - loss: 1.8350 - accuracy: 0.6135 - val_loss: 1.3929 - val_accuracy: 0.6825
+
+Time take to train 1 epochs is: 1:25:22.537572 hour
+
 ----
 # Amazon_ML_Challenge_2021
 
